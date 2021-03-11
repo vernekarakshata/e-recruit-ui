@@ -1,0 +1,20 @@
+<ng-container *ngIf="isUserLoggedIn; else displayWhenUserNotLoggedInTemplate">
+  <div >
+    <mat-toolbar color="primary">
+        <span>e-recruit</span>
+       <span class="align-right-spacer"></span>
+       <mat-icon>favorite</mat-icon>
+       <mat-icon>share</mat-icon>
+      </mat-toolbar>
+ </div>
+</ng-container>
+<ng-template #displayWhenUserNotLoggedInTemplate>
+  <div  class="header-container">
+    <h1 class="app-login-logo-text">e-recruit</h1>
+ </div>
+</ng-template>
+
+
+
+
+ 

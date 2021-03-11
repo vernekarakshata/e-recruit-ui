@@ -2,3 +2,27 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.form-field-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field-container > *{
+    width: 100%;
+}
+
+.text-align-right{
+    text-align: right;
+}
+
+.a-tag-style{
+    color: darkblue;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.align-right-spacer {
+    flex: 1 1 auto;
+  }
